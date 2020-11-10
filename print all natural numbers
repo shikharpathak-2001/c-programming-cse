@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    
+    int number,x;
+    unsigned int range;
+    printf("enter range:");
+    scanf("%d",&range);
+    
+for(number=1;number<=range;number++)
+printf("%d",number) ;
+
+
+return 0;
+}
