@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int number;
+unsigned int range;
+range=100;
+for(number=1;number<=range;number++)
+//using for loop because it makes the programme simple and concise
+if(number%2==0)
+{
+printf("%d\n",number);
+}
+
+
+
+
+
+return 0;
+}
