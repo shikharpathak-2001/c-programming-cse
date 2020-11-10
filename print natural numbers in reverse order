@@ -1,0 +1,16 @@
+int main()
+{
+int number;
+unsigned int range;
+printf("please enter the largest number :");
+scanf("%d",&range);
+for(number=range;number>=0;number--)
+//using for loop because it makes the programme simple and concise
+{
+printf("%d\n",number);
+}
+
+
+
+return 0;
+}
