@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+
+
+int main()
+{
+char x;
+for(x='a';x<='z';x++)
+//using for loop because it makes the programme simple and concise
+{
+printf("%c\n",x);
+}
+
+
+
+return 0;
