@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, first;
+
+    /* Input number from user */
+    printf("Enter any number: ");
+    scanf("%d", &n);
+
+    first = n;
+
+    /* Remove last digit from number till only one digit is left */
+    while(first >= 10)
+    {
+       first = first / 10;
+    }
+
+    printf("First digit = %d", first);
+    
+    printf("\nlast digit = %d",n%10);
+    
+    printf("\nsum of first and last digit of number:%d",first +(n%10));
+    
+    
+
+    return 0;
+}
